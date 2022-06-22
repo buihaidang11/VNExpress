@@ -559,6 +559,9 @@ body {
     padding: 8px;
 }
 
+.logo-footer {
+    padding-left: 0;
+}
 
 
 .rss-icon-facebook:hover {

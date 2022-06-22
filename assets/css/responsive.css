@@ -183,7 +183,28 @@
     text-align: center;
 }
 
+.contact-title {
+    padding: 0;
+}
 
+.logo-footer {
+    padding-left: 12px;
+}
+
+.footer-nav {
+    padding-right: 4px;
+    white-space: nowrap;
+}
+
+.copyright-footer {
+    padding: 0 12px;
+}
+
+.contact-tpHCM {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 24px;
+}
 
 }
 
@@ -260,11 +281,25 @@
     justify-content: center;
 }
 
+.logo-footer, .footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.footer-social {
+    margin: 0 !important;
+}
+
 .d-ipad-none {
     display: none !important;
 }
 
-
+.copyright-footer {
+    display: flex;
+    padding: 12px;
+}
 
 }
 
