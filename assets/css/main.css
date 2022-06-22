@@ -456,6 +456,10 @@ body {
     font-weight: 400;
 }
 
+.slider-footer {
+    z-index: 0 !important;
+}
+
 
 .inner-footer {
     border-top: 5px solid #E5E5E5;

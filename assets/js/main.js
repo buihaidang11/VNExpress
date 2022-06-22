@@ -3,6 +3,19 @@ var linkItems = document.getElementsByClassName('nav-link-item')[0]
 var headerBot = document.getElementsByClassName('header-bot')[0]
 var headerBotMobile = document.getElementsByClassName('header-bot-mobile')[0]
 var arrowRight = document.getElementsByClassName('header-arrow-right')[0]
+var header_close = document.getElementsByClassName('header')[0]
+var body_close = document.getElementsByClassName('body_')[0]
+var click_button = document.getElementsByClassName('collapse')
+
+
+header_close.addEventListener("click", function () {
+    click_button[0].classList.remove('show')
+    click_button[1].classList.remove('show')
+})
+
+body_close.addEventListener("click", function () {
+    click_button[1].classList.remove('show')
+})
 
 
 dropItem.addEventListener("mouseover", function () {
