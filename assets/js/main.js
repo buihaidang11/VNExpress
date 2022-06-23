@@ -167,3 +167,37 @@ let array = listNavbar.map((item) => {
 })
 
 menuBread.innerHTML = `<li class="menu-bread-item home"><i class="fa-solid fa-house"></i></li>` + array.join("")
+
+var getTimeNow = document.getElementsByClassName('time-now')[0]
+
+var timeNow = new Date()
+let day = timeNow.getDay()
+let d = timeNow.getDate()
+let m = timeNow.getMonth() + 1
+let y = timeNow.getFullYear()
+
+switch (day) {
+
+    case 1:
+        day = "Thứ hai"
+        break
+    case 2:
+        day = "Thứ ba"
+        break
+    case 3:
+        day = "Thứ tư"
+    case 4:
+        day = "Thứ năm"
+    case 5:
+        day = "Thứ sáu"
+        break
+    case 6:
+        day = "Thứ bảy"
+        break
+    default:
+        day = "Chủ nhật"
+        break
+}
+
+
+getTimeNow.innerHTML = day + ', ' + d + '/' + m + '/' + y

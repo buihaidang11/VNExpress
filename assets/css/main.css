@@ -456,11 +456,6 @@ body {
     font-weight: 400;
 }
 
-.slider-footer {
-    z-index: -1 !important;
-    position: relative !important;
-}
-
 
 .inner-footer {
     border-top: 5px solid #E5E5E5;
@@ -496,16 +491,23 @@ body {
     text-decoration: underline;
 }
 
+.icon-ts {
+    color: #4f4f4f;
+    align-items: center;
+}
+
 .icon-qc {
-    color: cadetblue;
+    color: rgb(6, 154, 159);
+    align-items: center;
 }
 
 .icon-ht {
-    color: #ffc107;
+    color: #ffbf00;
+    align-items: center;
 }
 
 .text-hover:hover {
-    color: #456cbf;
+    color: #063fb9;
     cursor: pointer;
 }
 
