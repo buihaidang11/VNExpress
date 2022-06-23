@@ -186,8 +186,10 @@ switch (day) {
         break
     case 3:
         day = "Thứ tư"
+        break
     case 4:
         day = "Thứ năm"
+        break
     case 5:
         day = "Thứ sáu"
         break
