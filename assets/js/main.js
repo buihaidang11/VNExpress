@@ -155,3 +155,16 @@ var listNavbar = [
     { id: 19, name: 'Hài' }
 
 ]
+
+const menuBread = document.getElementsByClassName('menu-bread')[0]
+
+
+let array = listNavbar.map((item) => {
+    return `
+    <li class="menu-bread-item drop-item">
+        <a class="menu-bread-link" href="#">${item.name}</a>
+    </li>
+    `
+})
+
+menuBread.innerHTML = `<li class="menu-bread-item home"><i class="fa-solid fa-house"></i></li>` + array.join("")
